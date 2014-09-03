@@ -31,9 +31,6 @@ add_action( 'init', create_function( '$a', "remove_action( 'init', 'wp_version_c
 add_filter( 'pre_option_update_core', create_function( '$a', "return null;" ) );
 }
 
-function url_tema($url = '') {
-	echo get_stylesheet_directory_uri('template_url').'/'.$url;
-}
 
 //Filtra a página index.php que roda o loop principal
 function only_category($query) {
