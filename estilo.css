@@ -71,19 +71,21 @@ padding: 0;
 #galerias {
 width: 100%;
 min-height: 150px;
+margin-left: 37px;
 
 }
 
 #vimeo {
-width: 90%;
+width: 100%;
 min-height: 150px;
-margin-left: 50px;
+margin-left: 0;
 margin-bottom: -7px;
 }
 
 
 .orbit-default {
     margin-top: 0 !important;
+	margin-left: -72px !important;
 }
 
 .orbit-wrapper  {
@@ -98,17 +100,17 @@ margin: 0 auto !important;
 }
 
 #escorrega {
-	background: url(imagens/header-fotos-jquery.jpg) no-repeat left top;
+	background: url(imagens/header-fotos-jquery.jpg) no-repeat -400px top;
     height: 363px;
 }
 
 #logos {
 
    background: url("imagens/logos-footer.png") no-repeat scroll left top transparent;
-    height: 222px;
+    height: 170px;
     margin: 0 auto;
     position: relative;
-    top: 85px;
+    top:30px;
     width: 837px;
 }
 /*
@@ -116,9 +118,14 @@ margin: 0 auto !important;
     padding: 0.35em 1.2em;
 }
 */
-#access li.menu-item-778 a{
-    padding: 0.35em 1.2em;
+#access li.menu-item-1148 a{
+    padding: 0.5em 1.2em;
 }
+
+#access li.menu-item-1151 a{
+    padding: 0.5em 1.2em;
+}
+
 
 
 /* Singular */

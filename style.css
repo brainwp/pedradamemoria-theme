@@ -1,11 +1,10 @@
 /*
-Theme Name: Pedra da Mem&oacute;ria
+Theme Name: Pedra da Mem&oacute;ria - Marac&aacute;
 Template: twentyeleven
 Theme URI: http://wordpress.org/
-Description: Tema do Projeto da Produtora Cultural Marac&aacute; - Pedra da Mem&oacute;ria
-Author: Brasa
-Author URI: http://brasa.art.br
-Version: 0.2
+Description: Tema do site do Projeto Pedra da Mem&oacute;ria da Produtora Cultural Marac&aacute;
+Author: Brasa Design e Tecnologia
+Version: 0.3
 License: GNU General Public License
 License URI: license.txt
 
@@ -69,9 +68,6 @@ footer, header, hgroup, menu, nav, section {
 /* =Structure
 ----------------------------------------------- */
 
-body {
-	padding: 0 2em;
-}
 #page {
 	margin: 0 auto;
 	max-width: 900px;
@@ -93,7 +89,7 @@ body {
 }
 
 #access div {
-	margin: 0 7.6%;
+	margin: 0 2%;
 }
 #primary {
 	float: left;
@@ -209,7 +205,7 @@ body {
 	max-width: 900px;
 }
 .one-column #content {
-    margin: 0 30px 0 230px;
+    margin: 0 10%;
 	width: auto;
 }
 .one-column #nav-below {
@@ -556,53 +552,49 @@ a:hover {
 -------------------------------------------------------------- */
 
 #access ul {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	list-style: none;
-	margin: 0 0 0 -0.8125em;
+	margin: 0 0 0 11px;
 	padding-left: 0;
 }
 #access li {
 	float: left;
     position: relative;
     text-align: center;
-    width: 150px;
+    width: 140px;
 }
 #access a {
 	color: #FFF;
 	display: block;
 	line-height: 1.4em;
-    padding: 1.05em 1.2em;
+    padding: 1.2em 0.4em;
 	text-decoration: none;
 }
 #access ul ul {
-	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
-	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
-	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 	display: none;
 	float: left;
 	margin: 0;
 	position: absolute;
-	top: 3.333em;
+	top: 2.8em;
 	left: 0;
-	width: 188px;
+	width: 140px;
 	z-index: 99999;
+	text-align: center;
 }
 #access ul ul ul {
 	left: 100%;
 	top: 0;
 }
 #access ul ul a {
-	background: none ;
+	background: #9D070D;
 	color: #FFF;
-	font-size: 13px;
-	font-weight: normal;
+	font-size: 0.7em;
 	height: auto;
 	line-height: 1.4em;
-	padding: 10px 10px;
-	width: 168px;
+	padding: 10px 3px;
+	width: 140px;
 }
 #access li:hover > a,
-#access ul ul :hover > a,
 #access a:focus {
 	background: #9d070d;
 }
@@ -611,6 +603,12 @@ a:hover {
 	background: #9d070d; /* Show a solid color for older browsers */
 	color: #FFF;
 }
+
+#access ul ul :hover > a {
+	background: #b51218;
+
+}
+
 #access ul li:hover > ul {
 	display: block;
 }
@@ -2211,9 +2209,9 @@ p.comment-form-comment {
 ----------------------------------------------- */
 
 #colophon {
-   background: url("imagens/bg_footer.jpg") no-repeat scroll center 35px #9D070D;
+   background: url("imagens/bg_footer.jpg") repeat scroll center top #9D070D;
     clear: both;
-    height: 380px;		
+    height: 240px;		
 }
 #supplementary {
 	border-top: 1px solid #ddd;
@@ -2243,12 +2241,15 @@ p.comment-form-comment {
 
 /* Site Generator Line */
 #site-generator {
+	background: #9D070D;
     color: #FFFFFF;
     font-size: 13px;
 	font-weight: bold;
     line-height: 2.2em;
+	position: relative;
     text-align: center;
-	margin-top: -52px;
+    top: 70px;
+	height: 30px;
 }
 #site-generator a {
 	color: #FFF;
