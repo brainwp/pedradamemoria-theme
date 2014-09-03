@@ -33,7 +33,7 @@ get_header(); ?>
 		<div id="galerias">
 		
 					<?php
-					echo do_shortcode('[satellite post_id=46]');
+					echo do_shortcode('[satellite gallery=1 splash=on]');
 					?>
 		
 		</div>

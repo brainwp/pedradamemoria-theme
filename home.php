@@ -20,4 +20,16 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- #primary -->
 
-<?php get_footer(); ?>
+		<div id="primary">
+
+		<div id="galerias">
+		
+					<?php
+					 echo do_shortcode('[satellite post_id=777]');
+					?>
+		
+		</div>
+		
+		</div><!-- #primary -->
+
+<?php get_footer('pedradamemoria'); ?>

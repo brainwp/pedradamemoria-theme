@@ -16,7 +16,7 @@
 	<div id="logos"></div>
 	</footer><!-- #colophon -->
 	<div id="site-generator">
-				ALGUNS DIREITOS RESERVADOS - MARAC&Aacute; PRODU&Ccedil;&Otilde;ES 2012 - DESENVOLVIDO COM <a href="<?php echo esc_url( __( 'http://br.wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator">WORDPRESS</a> PELA <a href="http://etedesign.com.br" title="Eté Design" target="_blank">ET&Eacute;</a>
+				ALGUNS DIREITOS RESERVADOS - MARAC&Aacute; PRODU&Ccedil;&Otilde;ES 2012 - DESENVOLVIDO COM <a href="<?php echo esc_url( __( 'http://br.wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator">WORDPRESS</a> PELA <a href="http://brasa.art.br" title="Brasa" target="_blank">BRASA</a>
 	</div>
 </div><!-- #page -->
 

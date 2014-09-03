@@ -205,8 +205,8 @@ footer, header, hgroup, menu, nav, section {
 	max-width: 900px;
 }
 .one-column #content {
-    margin: 0 10%;
-	width: auto;
+	margin: 0px 24% 0%;
+	width: 70%;
 }
 .one-column #nav-below {
 	border-bottom: 1px solid #ddd;
@@ -618,6 +618,14 @@ a:hover {
 #access .current_page_ancestor > a {
 	font-weight: bold;
 	background: #9d070d;
+}
+
+li#menu-item-943 {
+font-size: 0.85em;
+}
+
+li#menu-item-946 {
+font-size: 0.85em;
 }
 
 /* Search Form */
